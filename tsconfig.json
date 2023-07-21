@@ -6,6 +6,11 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "components/*": ["src/components*"]
+    },
     "skipLibCheck": true,
     "esModuleInterop": false,
     "forceConsistentCasingInFileNames": true,
