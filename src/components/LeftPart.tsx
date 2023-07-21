@@ -1,11 +1,19 @@
+import DesktopLogo from "@/assets/img/logo/react2.jpeg";
 const LeftPart = () => {
   return (
     <>
       <div className="arlo_tm_leftpart_wrap">
         <div className="leftpart_inner">
           <div className="logo_wrap">
-            <a href="#">
-              <img src="img/logo/desktop-logo.png" alt="desktop-logo" />
+            <a
+              href="#"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img src={DesktopLogo} alt="desktop-logo" />
             </a>
           </div>
           <div className="menu_list_wrap">
@@ -21,12 +29,6 @@ const LeftPart = () => {
               </li>
               <li>
                 <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#news">News</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
