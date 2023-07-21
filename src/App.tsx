@@ -1,4 +1,6 @@
-import Portfolio from "./screens/portfolio";
+import Portfolio from "./screens/Portfolio";
+import "../src/styles/plugins.scss";
+import "../src/styles/style.scss";
 const App = () => {
   return (
     <div>
